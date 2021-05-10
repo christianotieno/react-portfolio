@@ -1,22 +1,23 @@
 import React from 'react';
+import './Navbar.css';
 
 const Navbar = () => (
   <nav>
-    <ul>
-      <li>
+    <ul className="Navbar-list">
+      <li className="Nav-item">
         Logo
       </li>
-      <li>
+      <li className="Nav-item">
         Home
       </li>
-      <li>
+      <li className="Nav-item">
         About
       </li>
-      <li>
-        Services
+      <li className="Nav-item">
+        My work
       </li>
-      <li>
-        Contact me
+      <li className="Nav-item">
+        Contact Me
       </li>
     </ul>
   </nav>

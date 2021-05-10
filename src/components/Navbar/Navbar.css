@@ -1,0 +1,11 @@
+.Navbar-list {
+  width: 50vw;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+.Nav-item {
+  list-style: none;
+}
