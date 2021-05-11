@@ -2,24 +2,27 @@ import React from 'react';
 import './Navbar.css';
 
 const Navbar = () => (
-  <nav>
-    <ul className="Navbar-list">
-      <li className="Nav-item">
-        Logo
-      </li>
-      <li className="Nav-item">
-        Home
-      </li>
-      <li className="Nav-item">
-        About
-      </li>
-      <li className="Nav-item">
-        My work
-      </li>
-      <li className="Nav-item">
-        Contact Me
-      </li>
-    </ul>
+  <nav className="bg-portfolio_mineShaft text-portfolio_mercury p-6">
+    <div className="container mx-auto flex justify-between ">
+      <div>
+        <span className="font-bold text-xl">
+          Christian Otieno
+        </span>
+      </div>
+      <div className="m-0 p-0">
+        <div className=" flex font-semibold justify-between">
+          <a href="#portfolio" className="mr-10">
+            Portfolio
+          </a>
+          <a href="#about" className="mr-10">
+            About
+          </a>
+          <a href="#contact">
+            Contact
+          </a>
+        </div>
+      </div>
+    </div>
   </nav>
 );
 

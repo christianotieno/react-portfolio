@@ -3,7 +3,7 @@ import Navbar from '../Navbar/Navbar';
 import Landing from '../Landing/Landing';
 
 const App = () => (
-  <div className="App bg-white dark:bg-gray-800">
+  <div className="font-inter">
     <Navbar />
     <Landing />
   </div>

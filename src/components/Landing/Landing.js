@@ -2,7 +2,7 @@ import React from 'react';
 import './Landing.css';
 
 const Landing = () => (
-  <div className="Landing">
+  <div className="bg-portfolio_cod_gray">
     <div>
       <p>
         Lorem ipsum dolor sit amet,
