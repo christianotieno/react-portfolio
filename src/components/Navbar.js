@@ -1,5 +1,5 @@
 import React from 'react';
-import './Navbar.css';
+import iconForMail from '../assets/icons/mail.png';
 
 const Navbar = () => (
   <nav className="bg-portfolio_mineShaft text-portfolio_mercury p-6">
@@ -17,8 +17,11 @@ const Navbar = () => (
           <a href="#about" className="mr-10">
             About
           </a>
-          <a href="#contact">
+          <a href="#contact" className="mr-10">
             Contact
+          </a>
+          <a href="#contact">
+            <img src={iconForMail} alt="mail-icon" />
           </a>
         </div>
       </div>

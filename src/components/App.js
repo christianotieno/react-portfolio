@@ -1,6 +1,5 @@
-import './App.css';
-import Navbar from '../Navbar/Navbar';
-import Landing from '../Landing/Landing';
+import Navbar from './Navbar';
+import Landing from './Landing';
 
 const App = () => (
   <div className="font-inter">

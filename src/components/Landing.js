@@ -1,5 +1,4 @@
 import React from 'react';
-import './Landing.css';
 
 const Landing = () => (
   <div className="bg-portfolio_cod_gray">
