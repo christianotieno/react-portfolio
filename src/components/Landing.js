@@ -8,7 +8,7 @@ import angelList from '../assets/icons/angel_list.png';
 import illustration from '../assets/images/IllustrationHeader.png';
 
 const Landing = () => (
-  <div className="bg-portfolio_cod_gray">
+  <div className="bg-portfolio_cod_gray landing">
     <div className="social_icons">
       <a href="#social" className="my-1">
         <img src={github} alt="" />
@@ -33,10 +33,10 @@ const Landing = () => (
           <br />
           I&apos;m Christian
         </p>
-        <p className="text-portfolio_mercury text-2xl font-medium">
+        <p className="my-5 text-portfolio_mercury text-4xl font-medium">
           I am a Software Engineer
         </p>
-        <p className="text-portfolio_mercury">
+        <p className="my-5 text-portfolio_mercury text-3xl">
           I can help you build a product,
           feature or a website.
           Look through some of my work and experience.
@@ -44,9 +44,9 @@ const Landing = () => (
           you need coded, don&apos;t hesitate to contact me.
         </p>
       </div>
-      <div className="illustrator-header">
-        <img src={illustration} alt="" />
-      </div>
+    </div>
+    <div className="illustrator-header">
+      <img src={illustration} alt="" />
     </div>
   </div>
 );
