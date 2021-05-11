@@ -1,18 +1,52 @@
 import React from 'react';
+import './Landing.css';
+import github from '../assets/icons/github.png';
+import linkedin from '../assets/icons/linkedin.png';
+import medium from '../assets/icons/medium.png';
+import twitter from '../assets/icons/twitter.png';
+import angelList from '../assets/icons/angel_list.png';
+import illustration from '../assets/images/IllustrationHeader.png';
 
 const Landing = () => (
   <div className="bg-portfolio_cod_gray">
-    <div>
-      <p>
-        Lorem ipsum dolor sit amet,
-        consectetur adipiscing elit.
-        Morbi eget commodo erat. Suspendisse commodo mi ut posuere rutrum.
-      </p>
+    <div className="social_icons">
+      <a href="#social" className="my-1">
+        <img src={github} alt="" />
+      </a>
+      <a href="#social" className="my-1">
+        <img className="my-4" src={twitter} alt="" />
+      </a>
+      <a href="#social" className="my-1">
+        <img className="my-4" src={linkedin} alt="" />
+      </a>
+      <a href="#social" className="my-1">
+        <img className="my-4" src={medium} alt="" />
+      </a>
+      <a href="#social">
+        <img className="my-4" src={angelList} alt="" />
+      </a>
     </div>
-    <div className="dev-name">
-      Christian
-      <br />
-      Otieno
+    <div className="container mx-auto flex justify-between">
+      <div className="headline">
+        <p className="font-creteRound text-portfolio_orange text-7xl">
+          Hey There.
+          <br />
+          I&apos;m Christian
+        </p>
+        <p className="text-portfolio_mercury text-2xl font-medium">
+          I am a Software Engineer
+        </p>
+        <p className="text-portfolio_mercury">
+          I can help you build a product,
+          feature or a website.
+          Look through some of my work and experience.
+          If you like what you see and have a project
+          you need coded, don&apos;t hesitate to contact me.
+        </p>
+      </div>
+      <div className="illustrator-header">
+        <img src={illustration} alt="" />
+      </div>
     </div>
   </div>
 );

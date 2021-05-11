@@ -12,6 +12,7 @@ module.exports = {
     extend: {
       fontFamily: {
         inter: ['Inter'],
+        creteRound: ['Crete Round'],
       },
     },
   },
