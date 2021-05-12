@@ -10,20 +10,20 @@ import illustration from '../assets/images/IllustrationHeader.png';
 const Landing = () => (
   <div className="bg-portfolio_cod_gray landing">
     <div className="social_icons">
-      <a href="#social" className="my-1">
+      <a href="#social">
         <img src={github} alt="" />
       </a>
-      <a href="#social" className="my-1">
-        <img className="my-4" src={twitter} alt="" />
-      </a>
-      <a href="#social" className="my-1">
-        <img className="my-4" src={linkedin} alt="" />
-      </a>
-      <a href="#social" className="my-1">
-        <img className="my-4" src={medium} alt="" />
+      <a href="#social">
+        <img className="my-6" src={twitter} alt="" />
       </a>
       <a href="#social">
-        <img className="my-4" src={angelList} alt="" />
+        <img className="my-6" src={linkedin} alt="" />
+      </a>
+      <a href="#social">
+        <img className="my-6" src={medium} alt="" />
+      </a>
+      <a href="#social">
+        <img className="my-6" src={angelList} alt="" />
       </a>
     </div>
     <div className="container mx-auto flex justify-between">
@@ -37,11 +37,10 @@ const Landing = () => (
           I am a Software Engineer
         </p>
         <p className="my-5 text-portfolio_mercury text-3xl">
-          I can help you build a product,
-          feature or a website.
+          I can help you build a product, feature or website.
           Look through some of my work and experience.
           If you like what you see and have a project
-          you need coded, don&apos;t hesitate to contact me.
+          you need coding on, don&apos;t hesitate to contact me.
         </p>
       </div>
     </div>

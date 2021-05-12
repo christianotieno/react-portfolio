@@ -1,5 +1,5 @@
 .landing {
-  height: 80vh;
+  height: 85vh;
 }
 .headline {
   height: 25vh;
@@ -15,6 +15,6 @@
 }
 .illustrator-header {
   position: absolute;
-  top:9vh;
+  top:8vh;
   right:0;
 }
