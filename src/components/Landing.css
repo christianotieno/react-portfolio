@@ -1,0 +1,20 @@
+.landing {
+  height: 85vh;
+}
+.headline {
+  height: 25vh;
+  width: 40vw;
+  margin-top: 15vh;
+}
+.social_icons {
+  position: absolute;
+  width: 20px;
+  height: 98.96px;
+  left: 36px;
+  top: 35vh;
+}
+.illustrator-header {
+  position: absolute;
+  top:8vh;
+  right:0;
+}
