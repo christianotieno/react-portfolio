@@ -11,9 +11,10 @@ module.exports = {
     },
     height: {
       half_screen: '50vh',
+      half_width: '50vw',
     },
     extend: {
-      backgroundImage: (theme) => ({
+      backgroundImage: () => ({
         'book-store': "linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%),url('./assets/images/book-store.png')",
         'covid-19-tracker': "linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%),url('./assets/images/covid-19-tracker.png')",
         'library-app': "linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%),url('./assets/images/library-app.png')",

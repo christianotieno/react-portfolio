@@ -4,10 +4,10 @@ import vectorBar from '../assets/images/Vector.png';
 import roshan from '../assets/images/roshan-game.png';
 
 const RecentWorks = () => (
-  <div className="bg-portfolio_mercury recent-works">
+  <div className="bg-portfolio_mercury pb-10">
     <div className="container mx-auto">
       <div className="title pt-20 pb-20 flex justify-between align-center">
-        <h1 className="recent-text  font-creteRound text-portfolio_downriver text-4xl self-center mt-2 mb-2">
+        <h1 className="recent-text font-creteRound text-portfolio_downriver text-4xl self-center mt-2 mb-2">
           My Recent Works
         </h1>
         <div className="vector-img-div self-center md:object-scale-down">
