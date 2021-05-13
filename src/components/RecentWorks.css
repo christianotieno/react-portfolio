@@ -1,0 +1,30 @@
+.recent-text {
+  width: 20vw;
+}
+
+.vector-img-div {
+  width: 80vw;
+}
+
+.top-project-img {
+  box-shadow: 0 0 18px rgba(0, 0, 0, 0.6);
+  border-radius: 50px;
+}
+
+.right-div {
+  width: 85%;
+}
+
+.tool-used {
+  border: 1px solid #091e42;
+}
+
+.project-btn {
+  background-color: #f55800;
+  width: 30%;
+}
+
+div.project-btn:hover {
+  color: #f55800;
+  background-color: #fff5e1;
+}
