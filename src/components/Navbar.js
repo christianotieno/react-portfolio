@@ -1,5 +1,5 @@
 import React from 'react';
-import iconForMail from '../assets/icons/mail.png';
+import iconForMail from '../assets/icons/light-icons/mail.png';
 
 const Navbar = () => (
   <nav className="bg-portfolio_mineShaft text-portfolio_mercury p-6">

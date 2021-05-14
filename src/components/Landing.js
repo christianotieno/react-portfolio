@@ -1,10 +1,10 @@
 import React from 'react';
 import './Landing.css';
-import github from '../assets/icons/github.png';
-import linkedin from '../assets/icons/linkedin.png';
-import medium from '../assets/icons/medium.png';
-import twitter from '../assets/icons/twitter.png';
-import angelList from '../assets/icons/angel_list.png';
+import github from '../assets/icons/light-icons/github.png';
+import linkedin from '../assets/icons/light-icons/linkedin.png';
+import medium from '../assets/icons/light-icons/medium.png';
+import twitter from '../assets/icons/light-icons/twitter.png';
+import angelList from '../assets/icons/light-icons/angel_list.png';
 import illustration from '../assets/images/IllustrationHeader.png';
 
 const Landing = () => (
