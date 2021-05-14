@@ -24,7 +24,7 @@ const About = () => (
           </div>
         </div>
         <div className="">
-          <img className="absolute z-1 about-me-img" src={illustrationAboutMe} alt="" />
+          <img className="absolute about-me-img" src={illustrationAboutMe} alt="" />
         </div>
       </div>
       <div className="grid justify-items-center">
