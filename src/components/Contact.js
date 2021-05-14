@@ -1,4 +1,5 @@
 import React from 'react';
+// import Footer from './Footer';
 
 const Contact = () => (
   <div className="bg-portfolio_mercury">
@@ -37,6 +38,7 @@ const Contact = () => (
           </div>
         </div>
       </div>
+      {/* <Footer /> */}
     </div>
   </div>
 );
