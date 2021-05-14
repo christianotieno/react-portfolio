@@ -8,9 +8,12 @@ module.exports = {
       portfolio_mineShaft: '#3e3c3c',
       portfolio_downriver: '#091e42',
       portfolio_cod_gray: '#1c1a19',
+      portfolio_spring_wood: '#fbf8f7',
     },
     height: {
       half_screen: '50vh',
+      twenty_screen: '20vh',
+      thirty_screen: '30vh',
       half_width: '50vw',
     },
     extend: {
