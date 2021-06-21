@@ -2,7 +2,7 @@ import React from 'react';
 import iconForMail from '../assets/icons/light-icons/mail.png';
 
 const Navbar = () => (
-  <nav className="fixed w-full bg-portfolio_mineShaft text-portfolio_mercury p-6">
+  <nav className="z-50 fixed w-full bg-portfolio_mineShaft text-portfolio_mercury p-6">
     <div className="container mx-auto flex justify-between ">
       <div>
         <span className="font-bold text-xl">
