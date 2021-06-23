@@ -9,7 +9,6 @@
 }
 
 .social_icons {
-  position: absolute;
   width: 20px;
   height: 98.96px;
   left: 36px;
@@ -17,8 +16,26 @@
 }
 
 .illustrator-header {
-  position: absolute;
   top: 8vh;
   right: 0;
   width: 35vw;
 }
+
+@media (max-width: 640px) { 
+  .landing {
+    display: flex;
+  }
+  .social_icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60vw;
+    height: 20px;
+    left:20vw;
+    margin-top:40vh;
+  }
+  .headline {
+    width: 100%;
+    margin: 20vh 5vw;
+  }
+ }

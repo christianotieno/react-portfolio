@@ -8,66 +8,70 @@ import circle from '../assets/images/circle-skills.png';
 
 const About = () => (
   <div className="bg-portfolio_cod_gray text-portfolio_mercury">
-    <div className="container mx-auto pt-20">
-      <div className="grid grid-cols-2">
-        <div className="">
-          <div className="text-portfolio_orange font-creteRound text-6xl self-center">About me</div>
-          <div className="text-2xl mt-10">
+    <div className="container mx-auto pt-5 md:pt-20">
+      <div className="md:grid md:grid-cols-2">
+        <div className="w-full">
+          <div className="text-3xl text-portfolio_orange font-creteRound  md:text-6xl lg:text-6xl text-center md:text-left">
+            About me
+          </div>
+          <div className="m-2 mb:text-2xl lg:text-2xl mt-10">
             Hello, I’m a software engineer!
             I can help you build a product, feature, or website.
             Look through some of my work and experience!
             If you like what you see and have a project
             you need coding on, don’t hesitate to contact me.
           </div>
-          <div className="rounded text-center project-btn mt-10 text-portfolio_mercury font-bold py-2">
-            Get My Resume
+          <div className="justify-center md:justify-start flex">
+            <div className="mt-1 rounded text-center project-btn text-portfolio_mercury w-1/2 font-bold py-2">
+              Get My Resume
+            </div>
           </div>
         </div>
         <div className="">
-          <img className="absolute about-me-img" src={illustrationAboutMe} alt="" />
+          <img className="invisible md:visible absolute about-me-img w-1/2" src={illustrationAboutMe} alt="" />
         </div>
       </div>
-      <div className="grid justify-items-center">
-        <img className="mt-80 w-full" src={Devider} alt="" />
+      <div className="justify-items-center">
+        <img className="mt-10 md:mt-80 w-full" src={Devider} alt="" />
       </div>
-      <div className="grid grid-cols-3 pt-5 pb-5 h-half_screen gap-10">
-        <div className="p-10">
-          <div className="flex mb-2">
+      <div className="text-center md:grid md:grid-cols-3 md:pt-5 md:pb-5 md:h-half_screen md:gap-10">
+        <div className="pt-2 md:p-10">
+          <div className="justify-center flex mb-2">
             <img className="mr-3" src={titledSquare} alt="" />
-            <p className="text-2xl font-semibold">Language</p>
+            <p className="text-2xl font-semibold">Languages</p>
           </div>
-          <ul className="text-2xl">
-            <li className="mt-5">JavaScript</li>
-            <li className="mt-5">Ruby</li>
-            <li className="mt-5">Python</li>
-            <li className="mt-5">Html</li>
-            <li className="mt-5">CSS</li>
+          <ul className="md:text-2xl">
+            <li className="mt-2 md:mt-5">JavaScript</li>
+            <li className="mt-2 md:mt-5">Ruby</li>
+            <li className="mt-2 md:mt-5">Python</li>
+            <li className="mt-2 md:mt-5">Html</li>
+            <li className="mt-2 md:mt-5">CSS</li>
           </ul>
         </div>
-        <div className="p-10">
-          <div className="flex mb-2">
+        <div className="pt-2 md:p-10">
+          <div className="flex justify-center mb-2">
             <img className="mr-3" src={square} alt="" />
             <p className="text-2xl font-semibold">Frameworks</p>
           </div>
-          <ul className="text-2xl">
-            <li className="mt-5">React</li>
-            <li className="mt-5">Ruby on Rails</li>
-            <li className="mt-5">Django</li>
-            <li className="mt-5">Tailwind</li>
-            <li className="mt-5">Bootstrap</li>
+          <ul className="md:text-2xl">
+            <li className="mt-2 md:mt-5">React</li>
+            <li className="mt-2 md:mt-5">Ruby on Rails</li>
+            <li className="mt-2 md:mt-5">Django</li>
+            <li className="mt-2 md:mt-5">Tailwind</li>
+            <li className="mt-2 md:mt-5">Bootstrap</li>
           </ul>
         </div>
         <div className="p-10">
-          <div className="flex mb-2">
+          <div className="flex justify-center mb-2">
             <img className="mr-3" src={circle} alt="" />
             <p className="text-2xl font-semibold">Skills</p>
           </div>
-          <ul className="text-2xl">
-            <li className="mt-5">Codekit</li>
-            <li className="mt-5">Github</li>
-            <li className="mt-5">Codepen</li>
-            <li className="mt-5">Gitlab</li>
-            <li className="mt-5">Terminal</li>
+          <ul className="md:text-2xl">
+            <li className="mt-2 md:mt-5">Codekit</li>
+            <li className="mt-2 md:mt-5">Github</li>
+            <li className="mt-2 md:mt-5">Codepen</li>
+            <li className="mt-2 md:mt-5">Gitlab</li>
+            <li className="mt-2 md:mt-5">Terminal</li>
           </ul>
         </div>
       </div>

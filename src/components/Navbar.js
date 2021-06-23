@@ -3,7 +3,7 @@ import iconForMail from '../assets/icons/light-icons/mail.png';
 
 const Navbar = () => (
   <nav className="z-50 fixed w-full bg-portfolio_mineShaft text-portfolio_mercury p-6">
-    <div className="container mx-auto flex justify-between ">
+    <div className="container mx-auto flex justify-between">
       <div>
         <span className="font-bold text-xl">
           Christian Otieno
