@@ -1,4 +1,5 @@
 import React from 'react';
+// import { Transition } from '@headlessui/react';
 import iconForMail from '../assets/icons/light-icons/mail.png';
 
 const Navbar = () => (
